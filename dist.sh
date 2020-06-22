@@ -184,7 +184,7 @@ fi
   
   printf -- " Restarting apache....... \n"
 
-  sudo /opt/bitnami/ctlscript.sh restart apache
+  /opt/bitnami/ctlscript.sh restart apache
 }
 
 printf -- " Initiating scripts... \n"
